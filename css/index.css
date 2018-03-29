@@ -10,8 +10,8 @@
 body {
 
     background-color: rgb(238, 240, 244);
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 /*导航栏*/
@@ -54,23 +54,24 @@ body {
 .icon {
     float: left;
     height: 4vh;
-    margin:2vh 3vh 3vh 3vh;
+    margin: 2vh 3vh 3vh 3vh;
 }
-.line{
+
+.line {
     float: left;
     height: 4vh;
-    margin:2vh 3vh 3vh 1vh;
+    margin: 2vh 3vh 3vh 1vh;
 }
 
 input {
     display: inline-block;
     height: 8vh;
-    /*width: 80vw;*/
+    /*width: 80%;*/
     font-size: 3vh;
-    border: 0;/*去除阴影边框*/
+    border: 0; /*去除阴影边框*/
     border-left-width: 1px;
-    border-left-color:gray ;
-    outline-style: none;/*去除选中时的边框*/
+    border-left-color: gray;
+    outline-style: none; /*去除选中时的边框*/
     background-color: rgb(254, 254, 254);
     /*font-size: ;*/
 }
